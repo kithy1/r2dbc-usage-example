@@ -10,4 +10,7 @@ public class R2dbcUsageExampleApplication {
 		SpringApplication.run(R2dbcUsageExampleApplication.class, args);
 	}
 
+
+
+
 }
