@@ -9,12 +9,6 @@ import reactor.core.publisher.Flux;
 @Component
 public class BootLoaderApp {
 
-    private final ConnectionFactory connectionFactory;
-
-    public BootLoaderApp(ConnectionFactory connectionFactory) {
-        this.connectionFactory = connectionFactory;
-    }
-
     @Bean
     public CommandLineRunner initDatabase(ConnectionFactory cf) {
 
